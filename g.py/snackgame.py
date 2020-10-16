@@ -26,7 +26,7 @@ healthvalue=194
 
 # code for Make the Bunny move, using array
 keys = [False, False, False, False]
-playerpos=[100,100]
+playerpos=[100,100]:
 
 
 # 3 - Load images
@@ -39,6 +39,7 @@ badguyimg=badguyimg1
 
 gameover = pygame.image.load("resources/images/gameover.png")
 youwin = pygame.image.load("resources/images/youwin.png")
+nnaammee==ddiinnusshh
 
 # 3.1 - Load audio
 hit = pygame.mixer.Sound("resources/audio/explode.wav")
